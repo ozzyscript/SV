@@ -1,0 +1,47 @@
+# Person Detection Alert System
+
+A Python application that monitors a webcam in real time using YOLO. When a person is detected, it sends an instant notification to Telegram.
+
+## Features
+
+- Real-time webcam monitoring
+- Person detection with YOLO
+- Telegram notifications
+- Confidence threshold support
+
+## Technologies
+
+- Python
+- OpenCV
+- Ultralytics YOLO
+- Requests
+- python-dotenv
+
+## Installation
+
+```bash
+git clone https://github.com/your-username/your-repository.git
+cd your-repository
+
+python -m venv .venv
+source .venv/bin/activate    # Linux/macOS
+# .venv\Scripts\activate     # Windows
+
+pip install -r requirements.txt
+```
+
+## Configuration
+
+Create a `.env` file:
+
+```env
+OZSV=YOUR_TELEGRAM_BOT_TOKEN
+CID=YOUR_CHAT_ID
+```
+
+## Usage (Linux)
+
+```bash
+python3 main.py 
+```
+
