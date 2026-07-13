@@ -1,0 +1,8 @@
+Please note that:
+
+Yolo model (Ai) runs best on the GPU, if your device has an old Nvidia GPU or does not has at all
+that might run you into errors.
+The best option in this case is to run the Yolo model on the CPU.
+
+This software ran and tested on Linux os, never tired on Win or MAC.
+

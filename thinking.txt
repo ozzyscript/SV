@@ -1,0 +1,9 @@
+SV: is a smart survilance system is a CyberSec + Ai.
+
+1 capture video 
+2 send it as a live one
+3 detect person
+4 send alert
+5 send a photo
+6 send 7 sec clip
+
